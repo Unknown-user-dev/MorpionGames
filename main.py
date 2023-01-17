@@ -109,6 +109,9 @@ def play_game():
             print(Fore.GREEN + "Match nul !")
             break
         turn = 1 - turn
+    print(Fore.GREEN + "Appuyez sur Entrée pour revenir au menu")
+    input()
+    menu()
 
 if __name__ == '__main__':
     menu()
